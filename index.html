@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Stats in Singapore</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Covid-19 Stats Tracker</h1>
+    <h3>Last updated: <span id="updated"></span></h3>
+    <table>
+        <caption>Statistics on the Covid19 Cases in Singapore</caption>
+        <thead>
+            <tr>
+                <th scope="col">Total Cases</th>
+                <th scope="col">Total Recovered</th>
+                <th scope="col">Active Cases</th>
+                <th scope="col">Total Deaths</th>
+                <th scope="col">Stable Hospitalized</th>
+                <th scope="col">Critically Hospitalized</th>
+                <th scope="col">in Community Facilities</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="total" data-label="Total Cases"></td>
+                <td id="recovered" data-label="Total Recovered"></td>
+                <td id="active" data-label="Active Cases"></td>
+                <td id="deaths" data-label="Total Deaths"></td>
+                <td id="stable" data-label="Stable Hospitalized"></td>
+                <td id="critical" data-label="Critically Hospitalized"></td>
+                <td id="community" data-label="in Community Facilities"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="about">
+        <h2>About</h2>
+        <p>This is a project that I worked on that demonstrates the use of an API to track Singapore's Covid-19 Cases.</p>
+    </div>
+    <footer>
+        <p>Made by Jasfer &copy; 2021</p>
+        <p>Check out my other projects</p>
+        <a id="githuba" href="https://github.com/jasfertoh/" target="_blank"><i class="fab fa-github" id="github"></i></a>
+    </footer>
+
+    <!-- Scripts used -->
+    <script src="https://kit.fontawesome.com/3644685e29.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
